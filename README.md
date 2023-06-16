@@ -3,12 +3,7 @@
 <a href="Java url">
     <img alt="Java" src="https://img.shields.io/badge/Java->=8-darkblue.svg" />
 </a>
-<a href="Maven url" >
-    <img alt="Maven" src="https://img.shields.io/badge/maven-3.0.5-brightgreen.svg" />
-</a>
-<a href="Spring Boot url" >
-    <img alt="Spring Boot" src="https://img.shields.io/badge/Spring Boot-3.0.6-brightgreen.svg" />
-</a>
+
 
 The Car Service System is a command-line application that allows users to generate a bill for car services based on the chosen car type and selected services.
 
@@ -71,6 +66,7 @@ The `BillGenerator` class generates a detailed bill based on the selected car ty
 - `serviceStation`: A reference to the `CarServiceStation` object.
 - `BillGenerator(CarServiceStation serviceStation)`: A constructor that initializes the `serviceStation` reference.
 - `generateBill(String carType, String[] serviceCodes)`: A method that generates the bill by calculating the total charges for the selected services and displaying the details. It also checks if the total bill is more than ₹10,000 and displays a complimentary cleaning message if applicable.
+    ![Screenshot 2023-06-16 194207](https://github.com/poojagurnule/CarServiceApp-OOPs/assets/102051371/0fdc8e1d-55c1-488c-b597-c49967d3a534 )
 
 ## Usage
 1. Run the `CarServiceStation App` class.
